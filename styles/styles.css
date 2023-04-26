@@ -1,0 +1,128 @@
+/* Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fcfefa;
+    padding: 1em;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #485487;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.main-image {
+    width: 100vw;
+    height: auto;
+    margin: 0; /* add margin to center the image */
+    padding: 0;
+    object-fit: cover; /* make the image fill the container */
+    object-position: center; /* center the image horizontally */
+    aspect-ratio: 3.5; /* set aspect ratio to 5650x2303 */
+}
+
+.about-section {
+    width: 60%;
+    margin-left: 20%; /* the remaining 40% will be on the right side */
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* hide overflowing content */
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    background-color: #fcfefa;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    background-color: #fcfefa;
+
+    display: flex;
+    gap: 1.5em; /* add gap between items */
+}
+
+.navigation li {
+    margin-top: 0.5em;
+    margin-right: 3em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #f7907d;
+    font-weight: bold;
+
+}
+
+.navigation a:hover {
+    background-color: #ffffff8a;
+}
+
+/* FORM STYLE */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfefa;
+    padding: 2em;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+label {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #485487;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #f7907d;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #f7907d;
+}

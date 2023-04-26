@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Discover Kyoto: The Cultural Heart of Japan</title>
+        <link rel=stylesheet href="styles/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Discover Kyoto
+            </h1>
+            
+            <ul class="navigation">
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="attractions.html">TOP ATTRACTIONS</a></li>
+                <li><a href="events.html">UPCOMING EVENTS</a></li>
+                <li><a href="food.html">LOCAL CUISINE</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+            </ul>
+        </header>
+        <img src="contact-us.jpg" alt="Kyoto main image" class="main-image">
+        
+        <h2>Contact Us</h2>
+
+        <p>Get in touch via email or social channels</p>
+        <p>Please feel free to <a href="mailto:enquiries@discoverkyoto.com">send us an email</a> if you you would like to know more about our products.</p>
+
+        <form action="mailto:enquiries@discoverkyoto.com" method="post">
+
+            <div class="form-control">
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" name="fname" required />
+            </div>
+
+            <div class="form-control">
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" name="lname" required />
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email Address:</label>
+                <input id="email" type="email" name="email_address" required />
+            </div>
+
+            <div class="form-control">
+                <label for="comments">Comment:</label>
+                <textarea id="comments" name="comments" required></textarea>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
